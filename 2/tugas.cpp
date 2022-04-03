@@ -5,26 +5,26 @@
 
 using namespace std;
 
+int data_kel[3][2] = {
+	{
+		24,
+		42
+	},
+	{
+		69,
+		96
+	},
+	{
+		21,
+		12
+	}
+};
+	
+int total_kel, rata_kel;
+
 main() {
 	cout << "[ DATA KELULUSAN MAHASISWA ]";
 	cout << endl << "[--------------------------]";
-	
-	int data_kel[3][2] = {
-		{
-			24,
-			42
-		},
-		{
-			69,
-			96
-		},
-		{
-			21,
-			12
-		}
-	};
-	
-	int total_kel, rata_kel;
 	
 	for (int i = 0; i < 3; i++) {
 		cout << endl << "Data Kelulusan TI-SK th ke-" << i+1 << ":";
