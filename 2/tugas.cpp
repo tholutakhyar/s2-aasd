@@ -1,3 +1,5 @@
+// program mendata kelulusan mahasiswa
+
 #include <iostream>
 #include <conio.h>
 
