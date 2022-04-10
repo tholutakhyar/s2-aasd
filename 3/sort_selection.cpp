@@ -5,6 +5,7 @@ using namespace std;
 
 int main() {
 	int i,j,n,idx,temp,min,a[30];
+	
 	printf("masukkan jumlah angka:");
 	scanf("%d",&n);
 	printf("\nmasukkan angka\n");
