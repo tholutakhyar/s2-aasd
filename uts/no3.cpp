@@ -36,6 +36,7 @@ int main() {
 	cout  << endl;
 	
 	// hasil
+	cout << "[output/hasil]" << endl;
 	cout << "karakter yang dicari: " << find_char << endl;
 	cout << "status: " << status << endl;
 	cout << "jumlah karater " << find_char << ": " << count_find_char << endl;
